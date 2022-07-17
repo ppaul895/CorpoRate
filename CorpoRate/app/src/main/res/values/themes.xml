@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CorpoRate" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Flare</item>
+        <item name="colorPrimaryDark">@color/MatteCharcoal</item>
+        <item name="colorAccent">@color/Milk</item>
+        <item name="colorControlActivated">@color/Flare</item>
+        <item name="android:statusBarColor">@color/Flare</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/Flare</item>
+        <item name="colorSwitchThumbNormal">@color/MatteCharcoal</item>
+    </style>
+
+    <style name="Color1EditTextStyle">
+        <item name="colorControlActivated">@color/Flare</item>
+    </style>
+
+    <style name="Color1RatingBarStyle" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/Milk</item>
+        <item name="colorControlActivated">@color/Flare</item>
+    </style>
+
+    <style name="Color2RatingBarStyle" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/MatteCharcoal</item>
+        <item name="colorControlActivated">@color/Flare</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert" >
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:background">@color/Milk</item>
+        <item name="android:textColorPrimary">@color/MatteCharcoal</item>
+        <item name="dialogCornerRadius">25dp</item>
+        <item name="android:colorAccent">@color/Flare</item>
+    </style>
+</resources>

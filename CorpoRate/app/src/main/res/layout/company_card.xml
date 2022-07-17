@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            app:srcCompat="@drawable/circular_border_background" />
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/MatteCharcoal"
+            android:layout_alignTop="@id/company_logo"
+            android:layout_toEndOf="@id/company_logo"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/company_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/MatteCharcoal"
+            android:layout_toEndOf="@id/company_logo"
+            android:layout_below="@id/company_name"
+            android:text="Location"
+            app:drawableLeftCompat="@drawable/small_location_icon"
+            android:drawablePadding="3dp"/>
+
+        <TextView
+            android:id="@+id/company_num_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/company_logo"
+            android:layout_below="@id/company_location"
+            android:textSize="14sp"
+            android:textColor="@color/MatteCharcoal"
+            android:text="0 Reviews"
+            app:drawableLeftCompat="@drawable/small_num_reviews_icon"
+            android:drawablePadding="3dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/company_num_reviews"
+            android:layout_toEndOf="@id/company_logo"
+            android:rating="0.0"
+            android:secondaryProgressTint="#00000000"
+            android:stepSize="0.01"
+            android:theme="@style/Color2RatingBarStyle" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

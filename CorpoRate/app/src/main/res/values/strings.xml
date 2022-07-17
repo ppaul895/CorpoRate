@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CorpoRate</string>
+    <string name="searchFieldHint">Search companies here…</string>
+    <string name="filterFieldHint">Filter companies here…</string>
+    <string name="resetButtonText">Reset</string>
+    <string name="aboutButtonText">About</string>
+    <string name="submitButtonText">Submit</string>
+    <string name="reportFieldText">Report an issue here…</string>
+    <string name="suggestFieldHint">Suggest a company here…</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="username">Username</string>
+    <string name="searchButtonText">Search</string>
+</resources>

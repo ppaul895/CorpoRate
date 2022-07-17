@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.346875" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/bg_rounded.xml" value="0.346875" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/button_background.xml" value="0.3388888888888889" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/edit_text_background.xml" value="0.3388888888888889" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_reviews_card.xml" value="0.5703125" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_view.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_welcome_card.xml" value="0.5703125" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.346875" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/layout_hs.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/scrollbar.xml" value="0.5703125" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/drawable/toggle_selector.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/about_slide_layout.xml" value="0.34629629629629627" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_about.xml" value="0.33177083333333335" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_company.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_login.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_main.xml" value="0.32088285229202035" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_profile.xml" value="0.33125" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_register.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_search.xml" value="0.32088285229202035" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_splash.xml" value="0.3314814814814815" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/add_review_popup.xml" value="0.31979166666666664" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/company_card.xml" value="0.5456410256410257" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/company_layout.xml" value="0.22" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/header.xml" value="0.35" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/review_card.xml" value="0.31614583333333335" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/layout/toolbar.xml" value="0.35" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/menu/nav_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/menu/topbar.xml" value="0.3302083333333333" />
+        <entry key="..\:/Users/Prince Paul/Desktop/CorpoRate/cs389f2021team1/CorpoRate/app/src/main/res/mipmap-anydpi-v26/corporatelogo.xml" value="0.3453125" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/drawable/button_background.xml" value="0.1" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_view.xml" value="0.175" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/drawable/horizontalscroll.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/drawable/layout_hs.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/about_slide_layout.xml" value="0.1" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_profile.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_search.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/company_layout.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/geeka/Desktop/SE/cs389f2021team1/CorpoRate/app/src/main/res/layout/header.xml" value="0.1" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable-v24/company_add_review_background.xml" value="0.5815384615384616" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable-v24/edit_text_background_addReview.xml" value="0.45729166666666665" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable-v24/review_edit_text_background.xml" value="0.4901041666666667" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/CorpRateLogo_background.xml" value="0.4430769230769231" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/button_background.xml" value="0.5815384615384616" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/company_add_card.xml" value="0.5815384615384616" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/company_add_card_background.xml" value="0.4864583333333333" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/company_reviews_card.xml" value="0.5815384615384616" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/company_reviews_card_background.xml" value="0.4864583333333333" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/edit_text_background.xml" value="0.45729166666666665" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_reviews_card.xml" value="0.46770833333333334" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/home_welcome_card.xml" value="0.46770833333333334" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4430769230769231" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout-v26/activity_company.xml" value="0.45364583333333336" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/about_slide_layout.xml" value="0.45" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_about.xml" value="0.2773556231003039" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_company.xml" value="0.5" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_login.xml" value="0.2773556231003039" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_profile.xml" value="0.5" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_register.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_search.xml" value="0.2773556231003039" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_splash.xml" value="0.44114583333333335" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/add_review_popup.xml" value="0.5" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/company_card.xml" value="0.45" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/header.xml" value="0.44114583333333335" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/review_card.xml" value="0.47136752136752136" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/layout/toolbar.xml" value="0.44114583333333335" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/menu/nav_drawer.xml" value="0.4359375" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/menu/topbar.xml" value="0.21296296296296297" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/mipmap-anydpi-v26/CorpRateLogo.xml" value="0.4430769230769231" />
+        <entry key="..\:/Users/sean cesario/Desktop/academics/Fall 2021/[CS 389] Software Engineering/cs389f2021team1/CorpoRate/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/vansh/Desktop/projectSE/cs389f2021team1/CorpoRate/app/src/main/res/drawable/bg_rounded.xml" value="0.36875" />
+        <entry key="..\:/Users/vansh/Desktop/projectSE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_main.xml" value="0.3344594594594595" />
+        <entry key="..\:/Users/vansh/Desktop/projectSE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_search.xml" value="0.3484375" />
+        <entry key="..\:/Users/vansh/Desktop/projectSE/cs389f2021team1/CorpoRate/app/src/main/res/layout/activity_search_result.xml" value="0.35260416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

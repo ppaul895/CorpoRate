@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".CompanyActivity"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/nav_drawer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/Flare"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/companyLogo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:src="@drawable/circular_border_background" />
+
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/companyLogo"
+                android:includeFontPadding="false"
+                android:text="Company Name"
+                android:textColor="@color/Milk"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/companyLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/companyName"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@id/companyLogo"
+                android:drawablePadding="5dp"
+                android:includeFontPadding="false"
+                android:text="Location"
+                android:textColor="@color/Milk"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/small_location_icon"
+                app:drawableTint="@color/Milk" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/companyReviewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-55dp"
+            android:gravity="center"
+            android:paddingTop="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:onClick="expandCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardBackgroundColor="@color/MatteCharcoal"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/totalCompanyReviews"
+                        android:paddingBottom="7dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/Milk"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:drawableStartCompat="@drawable/small_reviews_icon"
+                        app:drawableTint="@color/Milk"
+                        android:drawablePadding="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Average Rating"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/Milk"
+                            android:textSize="10sp"
+                            android:textStyle="bold"/>
+
+                        <RatingBar
+                            android:id="@+id/overallRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:theme="@style/Color1RatingBarStyle"
+                            android:numStars="5"
+                            android:secondaryProgressTint="#00000000"
+                            android:rating="0.0"
+                            android:stepSize="0.01"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/companyRatingDetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="7dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:id="@+id/companyEthicsRatingText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ethics"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/Milk"
+                                android:textSize="10sp"
+                                android:layout_weight="1"/>
+
+
+                            <TextView
+                                android:id="@+id/companyEthicsRating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.21"
+                                android:textSize="10sp"
+                                android:textColor="@color/Flare" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp"
+                            android:layout_gravity ="center">
+
+                            <TextView
+                                android:id="@+id/companyEnvironmentalRatingText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Environmental"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/Milk"
+                                android:textSize="10sp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/companyEnvironmentalRating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.21"
+                                android:textSize="10sp"
+                                android:textColor="@color/Flare" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:id="@+id/companyLeadershipRatingText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Leadership"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/Milk"
+                                android:textSize="10sp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/companyLeadershipRating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.21"
+                                android:textSize="10sp"
+                                android:textColor="@color/Flare" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:id="@+id/companyWageEqualityRatingText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Wage Equality"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/Milk"
+                                android:textSize="10sp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/companyWageEqualityRating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.21"
+                                android:textSize="10sp"
+                                android:textColor="@color/Flare" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="3dp"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:id="@+id/companyWorkingConditionsRatingText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Working Conditions"
+                                android:paddingRight="5dp"
+                                android:textColor="@color/Milk"
+                                android:textSize="10sp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/companyWorkingConditionsRating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.21"
+                                android:textSize="10sp"
+                                android:textColor="@color/Flare" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reviewView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/company_reviews_card_background"
+            android:padding="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/addReview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/company_add_card_background"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/MatteCharcoal"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:onClick="addReview"/>
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

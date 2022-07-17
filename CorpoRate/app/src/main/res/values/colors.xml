@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Flare">#F74C3F</color>
+    <color name="MatteCharcoal">#38424B</color>
+    <color name="Milk">#FDFFF5</color>
+    <color name="TransparentLightGray">#66D3D3D3</color>
+    <color name="TransparentFlare">#B3F74C3F</color>
+</resources>
